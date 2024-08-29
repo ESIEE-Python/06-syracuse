@@ -1,6 +1,6 @@
 # Liste de Syracuse
 
-Cet exercice est la continuité de [l'exercice sur les suites de Syracuse](https://perso.esiee.fr/~courivad/python/ex04-suites-syracuse.html) pour lequel les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
+Cet exercice est la continuité d'un exercice précédent sur [les suites de Syracuse](https://perso.esiee.fr/~courivad/python/ex04-suites-syracuse.html) pour lequel les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
 
 Le fichier ``main.py`` contient :
 
@@ -13,17 +13,17 @@ Le fichier ``main.py`` contient :
   - qui prend en argument un entier ``n`` ;
   - et retourne la liste des valeurs de la suite.
 
--  une fonction secondaire ``temps_de_vol()``
+- une fonction secondaire ``temps_de_vol()``
   
   - qui prend en argument une liste de Syracuse ``l`` ;
   - et retourne son temps de vol.
 
--  une fonction secondaire ``temps_de_vol_en_altitude()``
+- une fonction secondaire ``temps_de_vol_en_altitude()``
   
   - qui prend en argument une liste de Syracuse ``l`` ;
   - et retourne son temps de vol en altitude.
 
--  une fonction secondaire ``altitude_maximale()``
+- une fonction secondaire ``altitude_maximale()``
   
   - qui prend en argument une liste de Syracuse ``l`` ;
   - et retourne son altitude maximale.
