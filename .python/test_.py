@@ -28,7 +28,7 @@ input_output = [(3, 8), (4, 3), (5, 6), (6, 9)]
 def test_tv(input, expected):
     assert temps_de_vol(syracuse_l(input)) == expected, input
 
-input_output = [(3, 7), (4, 2), (5, 4), (6, 2)]
+input_output = [(3, 6), (4, 1), (5, 3), (6, 1)]
 
 @pytest.mark.parametrize("input,expected", input_output)
 def test_tva(input, expected):
