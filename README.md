@@ -1,6 +1,3 @@
-> [!CAUTION]
-Ce travail s'effectue dans [l'environnement Github](https://perso.esiee.fr/~courivad/courses/utils/misc-01-github-environment.html)
-
 # Liste de Syracuse
 
 Cet exercice est la continuité d'un exercice précédent sur [les suites de Syracuse](https://perso.esiee.fr/~courivad/courses/exercices/ex04-suites-syracuse.html) dans lequel vous retrouverez la définition des grandeurs caractéristiques utilisées dans cet exercice. Précédemment, les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
@@ -53,23 +50,19 @@ Le fichier ``main.py`` contient :
 
 4️⃣ Lorsque les résultats obtenus à l'étape 3️⃣ sont satisfaisants, soumettre le code à une procédure de test plus robuste, les tests unitaires.
 
-    $ pytest .python
+    $ pytest
 
 Le score de test ``ST`` obtenu est le pourcentage de tests réussis. Tant que certains tests échouent, répéter le cycle 1️⃣ 2️⃣ 3️⃣ 4️⃣
 
 5️⃣ Lorsque le score de test ``ST`` est satisfaisant, s'intéresser à la [qualité du code](https://perso.esiee.fr/~courivad/courses/utils/sources/python-23-codequality.html).
 
-    $ pylint main.py
+    $ ruff check
 
 Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en tenant compte des messages dans le terminal
 
 6️⃣ Lorsque les scores ``ST`` et ``SQ`` sont satisfaisants, initialiser les variables d'environnement fournies dans BlackBoard puis pusher le travail pour évaluation
 
     $ git add .
-    $ git commit -m "un message explicatif"
+    $ git commit -m "syracuse"
     $ git push
 
-> [!CAUTION]
-En cas de soumissions multiples, seule la première est prise en compte.
-
-<!-- END INSERT -->
