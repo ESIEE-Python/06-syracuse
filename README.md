@@ -1,6 +1,6 @@
 # Liste de Syracuse
 
-Cet exercice est la continuité d'un exercice précédent sur [les suites de Syracuse](https://perso.esiee.fr/~courivad/courses/exercices/ex04-suites-syracuse.html) dans lequel vous retrouverez la définition des grandeurs caractéristiques utilisées dans cet exercice. Précédemment, les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
+Cet exercice est la continuité d'un exercice précédent sur [les suites de Syracuse](https://perso.esiee.fr/~courivad/courses/exercices/python-04-fonctions-suites-syracuse.html) dans lequel vous retrouverez la définition des grandeurs caractéristiques utilisées dans cet exercice. Précédemment, les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
 
 Le fichier ``main.py`` contient :
 
@@ -60,7 +60,7 @@ Le score de test ``ST`` obtenu est le pourcentage de tests réussis. Tant que ce
 
 Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en tenant compte des messages dans le terminal
 
-6️⃣ Lorsque les scores ``ST`` et ``SQ`` sont satisfaisants, initialiser les variables d'environnement fournies dans BlackBoard puis pusher le travail pour évaluation
+6️⃣ Lorsque les scores ``ST`` et ``SQ`` sont satisfaisants, pusher le travail vers votre repo distant. Ce travail est susceptible d'être pris en compte dans l'évaluation de l'unité.
 
     $ git add .
     $ git commit -m "syracuse"
