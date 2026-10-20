@@ -36,8 +36,6 @@ Le fichier ``main.py`` contient :
 
 - la fonction principale ``main()`` qui fait appel aux fonctions secondaires pour vérifier leur bon fonctionnement .
 
-<!-- START INSERT -->
-
 ## To do
 
 1️⃣ Ecrire (ou modifier) le code de la fonction secondaire.
@@ -46,7 +44,7 @@ Le fichier ``main.py`` contient :
 
 3️⃣ Exécuter le programme depuis le terminal. Tant que la fonction secondaire ne retourne pas les résultats attendus, répéter le cycle 1️⃣ 2️⃣ 3️⃣.
 
-    $ python main.py
+    $ python program.py
 
 4️⃣ Lorsque les résultats obtenus à l'étape 3️⃣ sont satisfaisants, soumettre le code à une procédure de test plus robuste, les tests unitaires.
 
